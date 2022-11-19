@@ -13,6 +13,7 @@
 #include <iostream>
 #include <string>
 #include <cmath>
+#include <algorithm>
 using namespace std;
 
 string decimaltoany(long long int n, int base);   // Common Function to convert Decimal ----> Any

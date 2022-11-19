@@ -199,7 +199,6 @@ void conversion(int selection){
                 cout<<"Octal Number : "<<hexatooctal(hexaDecimal)<<endl<<endl;
                 tryAgainFun();
             }else{
-                // clearScreen();
                 cout<<"Enter Proper Hexadecimal Number"<<endl;
                 welcomeScreen();
             }
@@ -293,7 +292,6 @@ string decimaltohexa(long long int n){
 
     
     while(quotient != 0){
-        // remainder += to_string(quotient%16);
         int new_remainder = quotient%16;
         if(new_remainder > 9 && new_remainder < 16){
             int ascii = new_remainder + 55;
@@ -310,11 +308,6 @@ string decimaltohexa(long long int n){
 }
 
 string hexatooctal(string s){
-    // string binary = hexadecimaltobinary(n);
-    // cout<<"Hexa to Binary Done :- "<<binary;
-    // string octal = binarytooctal(stoi(binary));
-
-    // return octal;
 
     string binary_Num, octal_Num;
     
